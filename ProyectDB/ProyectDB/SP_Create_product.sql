@@ -1,0 +1,13 @@
+-->CREANDO EL STORE PROCEDURE
+
+CREATE PROCEDURE SP_INSERT_PRODUCTO(
+	@Descripcion varchar(50),
+	@Color varchar(20),
+	@Precio money
+)
+AS
+-->CONTENIDO
+INSERT INTO Producto VALUES(@Descripcion, @Color, @Precio)
+
+-->EXECUTAR EL SP
+EXECUTE SP_INSERT_PRODUCTO 'BLUSA','NARANJA',500
