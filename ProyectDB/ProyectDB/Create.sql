@@ -1,0 +1,22 @@
+CREATE DATABASE	 ProyectDB
+
+CREATE TABLE Producto(
+IdProducto INT PRIMARY KEY NOT NULL,
+Descripcion VARCHAR(50) NOT NULL,
+Color VARCHAR(20) NOT NULL,
+Precio MONEY
+)
+
+go
+
+CREATE TABLE Venta(
+IdVenta INT NOT NULL,
+IdProducto INT,
+Cantidad INT,
+FechaVenta DATETIME,
+CONSTRAINT PK_Venta PRIMARY KEY (IdVenta)
+)
+
+
+
+

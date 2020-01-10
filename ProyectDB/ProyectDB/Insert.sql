@@ -1,0 +1,5 @@
+INSERT INTO Producto VALUES('Camisa manga larga','Roja',250)
+INSERT INTO Producto VALUES('Camisa manga corta','Verde',300)
+INSERT INTO Producto VALUES('Camiseta tipo polo','Gris',400)
+INSERT INTO Producto VALUES('Camiseta sport','Azul',100)
+INSERT INTO Producto VALUES('Camisa sin mangas','Roja y blanca',150)

@@ -19,11 +19,35 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
-        <FileNode Name="ProyectScript.sql">
+        <FileNode Name="Create.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SETI4222\SETI4222:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>SETI4222\SETI4222</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>ProyectScript.sql</FullPath>
+          <FullPath>Create.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SETI4222\SETI4222:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SETI4222\SETI4222</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SETI4222\SETI4222:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SETI4222\SETI4222</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SETI4222\SETI4222:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SETI4222\SETI4222</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SETI4222\SETI4222:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SETI4222\SETI4222</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Update.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
